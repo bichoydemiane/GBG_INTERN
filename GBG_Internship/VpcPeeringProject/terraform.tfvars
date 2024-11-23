@@ -1,0 +1,9 @@
+# Define variables
+regionR1 = "us-east-1"
+vpc_cidrR1 =  "10.0.0.0/16"
+PublicSubnet1_cidrR1 = "10.0.0.0/24"
+PrivateSubnet1_cidrR1 = "10.0.2.0/24"
+regionR2 = "us-east-2"
+vpc_cidrR2 =  "20.0.0.0/16"
+PublicSubnet1_cidrR2 = "20.0.0.0/24"
+PrivateSubnet1_cidrR2 = "20.0.2.0/24"

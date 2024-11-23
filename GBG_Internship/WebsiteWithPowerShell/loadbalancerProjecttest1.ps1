@@ -1,5 +1,10 @@
 #Credentials:
-
+$aws_access_key_id = ""
+$aws_secret_access_key = ""
+$region="us-east-1"
+$ProfileName  = "default"
+$SetCredentials = Set-AWSCredential -AccessKey $aws_access_key_id -SecretKey $aws_secret_access_key -StoreAs $P...
+$session = Initialize-AWSDefaults -Region $region -ProfileName $ProfileName
 ##################################################################################################
 
 
